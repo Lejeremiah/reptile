@@ -1,7 +1,6 @@
 import requests
 import tomd
 import re
-from lxml import etree
 from bs4 import BeautifulSoup
 import os
 
