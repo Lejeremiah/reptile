@@ -90,5 +90,5 @@ class TTT:
     def mk_imagefile(self):
         if not os.path.exists(self.get_file_name()):
             os.mkdir(self.get_file_name())
-
-ttt = TTT()
+if __name__ == "__main__":
+    ttt = TTT()
